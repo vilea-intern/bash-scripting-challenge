@@ -21,4 +21,4 @@ Running:
 
 `sh test.sh`
 
-will check if md5sum behaves as expected by computing the checksum of a known string ([source](https://en.wikipedia.org/wiki/MD5#Applications)), it will check that the script outputs **ok** if the *randomfile-hash* contains the hash of *randomfile*, it will check that the script will output **nok** if *randomfile* content is newly generated.
+will check if `md5sum` behaves as expected by computing the checksum of a known string ([source](https://en.wikipedia.org/wiki/MD5#Applications)), it will check that the script outputs **ok** if the *randomfile-hash* contains the hash of *randomfile*, it will check that the script will output **nok** if *randomfile* content is newly generated.
